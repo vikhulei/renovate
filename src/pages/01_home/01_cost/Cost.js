@@ -1,9 +1,10 @@
-import { WrapperCost } from "./CostStyles"
+import { WrapperCost, MainImage } from "./CostStyles"
+import cost from "../../../assets/home/01_cost.jpg"
 
 const Cost = () => {
     return (
         <WrapperCost>
-            <h1>i ma here</h1>
+            <MainImage src={cost} alt="renovation"/>
         </WrapperCost>
     )
 }

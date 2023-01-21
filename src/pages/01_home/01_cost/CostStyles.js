@@ -5,4 +5,10 @@ const WrapperCost = styled(Wrapper) `
 
 `
 
-export {WrapperCost}
+const MainImage = styled.img `
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+`
+
+export {WrapperCost, MainImage}
