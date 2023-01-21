@@ -1,11 +1,15 @@
-import styled from "styled-components"
+import styled from "styled-components";
+import {sizes} from "../Constants.js"
+
+const {wrapperWidth} = sizes;
+
 
 const Background = styled.div `
     width: 100vw;
 `
 
 const Wrapper = styled.div `
-    width: 100vw;
+    width: ${wrapperWidth};
     height: 700px;
 `
 
