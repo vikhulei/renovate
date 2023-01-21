@@ -1,4 +1,4 @@
-import {Wrapper, LeftSection, ContactTab, RightSection, IconsTab} from "./NavbarStyle"
+import {BackgroundNavbar, Wrapper, LeftSection, ContactTab, RightSection, IconsTab} from "./NavbarStyle"
 
 const Navbar = () => {
     return (

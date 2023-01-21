@@ -1,4 +1,9 @@
 import styled from "styled-components"
+import { Background } from "../ui/GeneralStyles"
+
+const BackgroundNavbar = styled(Background) `
+
+`
 
 const Wrapper = styled.div `
     width: 100vw;
@@ -22,4 +27,4 @@ const IconsTab = styled.div `
 
 `
 
-export {Wrapper, LeftSection, ContactTab, RightSection, IconsTab}
+export {BackgroundNavbar, Wrapper, LeftSection, ContactTab, RightSection, IconsTab}
