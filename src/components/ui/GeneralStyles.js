@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import {sizes} from "../Constants.js"
+import {Sizes} from "../Constants.js"
 
-const {wrapperWidth} = sizes;
+const {wrapperWidth} = Sizes;
 
 
 const Background = styled.div `
