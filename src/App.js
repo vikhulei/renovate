@@ -1,13 +1,13 @@
 import './App.css';
-import { ImageContainer, Image } from "./Sample.js"
-import Picture1 from "./assets/Picture1.jpg"
+import Cost from './pages/01_home/01_cost/Cost';
 
 function App() {
   return (
     <div className="App">
-      <ImageContainer>
+      <Cost />
+      {/* <ImageContainer>
       <Image  src={Picture1} />
-      </ImageContainer>
+      </ImageContainer> */}
     </div>
   );
 }
