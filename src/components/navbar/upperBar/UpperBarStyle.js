@@ -5,12 +5,11 @@ import { Sizes, Colors } from "../../Constants"
 const { lightgrey } = Colors
 
 const BackgroundUpperBar = styled(Background) `
-    height: 45px;
-    background-color: ${lightgrey}
+background-color: ${lightgrey}
 `
 
 const WrapperUpperBar = styled(Wrapper) `
-
+    height: 45px;
 `
 
 const LeftSection = styled.div `

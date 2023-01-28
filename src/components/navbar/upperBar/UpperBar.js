@@ -3,7 +3,7 @@ import {BackgroundUpperBar, WrapperUpperBar, LeftSection, ContactTab, RightSecti
 const UpperBar = () => {
     return (
         <BackgroundUpperBar>
-            
+            <WrapperUpperBar />
         </BackgroundUpperBar>
     )
 }
