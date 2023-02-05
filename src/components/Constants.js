@@ -4,5 +4,6 @@ export const Sizes = {
 
 export const Colors = {
     lightgrey: "#f5f5f5",
+    darkgray: "#969696",
     orange: "#f6b327",
 }
