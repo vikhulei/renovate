@@ -1,14 +1,12 @@
 import styled from "styled-components"
-import { Wrapper } from "../../../components/ui/GeneralStyles"
+import { BackgroundGeneral, WrapperGeneral } from "../../../components/ui/GeneralStyles"
 
-const WrapperCost = styled(Wrapper) `
-   
+const Background = styled(BackgroundGeneral) `
+
 `
 
-const MainImage = styled.img `
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+const Wrapper = styled(WrapperGeneral) `
+    border: 5px solid blue;
 `
 
-export {WrapperCost, MainImage}
+export {Background, Wrapper}

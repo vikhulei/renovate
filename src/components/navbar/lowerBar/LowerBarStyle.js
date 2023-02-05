@@ -1,15 +1,15 @@
 import styled from "styled-components"
-import { Background, Wrapper } from "../../ui/GeneralStyles"
-import { Sizes, Colors } from "../../Constants"
+import { BackgroundGeneral, WrapperGeneral } from "../../ui/GeneralStyles"
+import { Sizes, Colors } from "../../ui/Colors"
 
 const { lightgrey } = Colors
 
-const BackgroundLowerBar = styled(Background) `
+const BackgroundLowerBar = styled(BackgroundGeneral) `
     height: 100px;
     background-color: white;
 `
 
-const WrapperLowerBar = styled(Wrapper) `
+const WrapperLowerBar = styled(WrapperGeneral) `
 
 `
 

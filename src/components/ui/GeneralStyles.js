@@ -1,16 +1,16 @@
 import styled from "styled-components";
-import {Sizes} from "../Constants.js"
+import {Sizes} from "./Colors.js"
 
 const {wrapperWidth} = Sizes;
 
 
-const Background = styled.div `
+const BackgroundGeneral = styled.div `
     width: 100vw;
 `
 
-const Wrapper = styled.div `
+const WrapperGeneral = styled.div `
     width: ${wrapperWidth};
     height: 700px;
 `
 
-export {Background, Wrapper}
+export {BackgroundGeneral, WrapperGeneral}
