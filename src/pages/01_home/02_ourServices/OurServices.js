@@ -1,6 +1,6 @@
-import { Background, Wrapper } from "./CostStyles"
+import { Background, Wrapper } from "./OurServicesStyles"
 
-const Cost = () => {
+const OurServices = () => {
     return (
         <Background>
             <Wrapper>
@@ -10,4 +10,4 @@ const Cost = () => {
     )
 }
 
-export default Cost
+export default OurServices
