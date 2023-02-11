@@ -3,7 +3,8 @@ export const Sizes = {
 }
 
 export const Colors = {
-    lightgrey: "#f5f5f5",
-    darkgray: "#969696",
+    lightergrey: "#f5f5f5",
+    darkergrey: "#969696",
+    bordergrey: "#e6e6e6",
     orange: "#f6b327",
 }

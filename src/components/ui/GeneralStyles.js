@@ -11,6 +11,7 @@ const BackgroundGeneral = styled.div `
 const WrapperGeneral = styled.div `
     width: ${wrapperWidth};
     height: 700px;
+    margin: 0 auto;
 `
 
 export {BackgroundGeneral, WrapperGeneral}
