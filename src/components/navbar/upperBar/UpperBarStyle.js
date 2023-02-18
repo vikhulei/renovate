@@ -40,6 +40,15 @@ const RightSection = styled.div `
 
 const IconsTab = styled(ContactTab) `
     width: 50px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &&:hover {
+        color: black;
+        cursor: pointer;
+    }
 `
 
 export {Background, Wrapper, TabWrapper, ContactTab, RightSection, IconsTab}

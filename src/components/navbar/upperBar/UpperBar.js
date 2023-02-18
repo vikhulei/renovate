@@ -1,8 +1,8 @@
-import {Background, Wrapper, TabWrapper, ContactTab, RightSection, IconsTab} from "./UpperBarStyle"
-import { Colors } from "../../ui/Colors"
-const { darkergrey } = Colors
-
-
+import { Background, Wrapper, TabWrapper, ContactTab, RightSection, IconsTab } from "./UpperBarStyle"
+import twitter from "../../../assets/twitter.jpg"
+import TwitterIcon from '@mui/icons-material/Twitter';
+import SearchIcon from '@mui/icons-material/Search';
+import Search from "@mui/icons-material/Search";
 
 const UpperBar = () => {
     return (
@@ -15,13 +15,13 @@ const UpperBar = () => {
                 </TabWrapper>
                 <TabWrapper>
                     <IconsTab>
-                        L
+                        f
                     </IconsTab>
                     <IconsTab>
-                        L
+                        <TwitterIcon />
                     </IconsTab>
                     <IconsTab>
-                        L
+                        <SearchIcon />
                     </IconsTab>
                 </TabWrapper>
             </Wrapper>
