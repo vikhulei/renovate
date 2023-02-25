@@ -5,6 +5,7 @@ const {wrapperWidth} = Sizes;
 
 
 const BackgroundGeneral = styled.div `
+    position: relative;
     width: 100vw;
 `
 
