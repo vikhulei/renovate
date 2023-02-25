@@ -4,7 +4,7 @@ const OurServices = () => {
     return (
         <Background>
             <Wrapper>
-
+                <h2>Our services</h2>
             </Wrapper>
         </Background>
     )
