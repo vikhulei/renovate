@@ -1,6 +1,6 @@
-import { Background, Wrapper } from "./SendMessageStyles"
+import { Background, Wrapper } from "./ContactStyles"
 
-const SendMessage = () => {
+const Contact = () => {
     return (
         <Background>
             <Wrapper>
@@ -10,4 +10,4 @@ const SendMessage = () => {
     )
 }
 
-export default SendMessage
+export default Contact
