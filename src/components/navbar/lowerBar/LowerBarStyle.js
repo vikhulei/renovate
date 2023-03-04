@@ -1,32 +1,40 @@
 import styled from "styled-components"
+import { Link } from "react-router-dom"
 import { BackgroundGeneral, WrapperGeneral } from "../../ui/GeneralStyles"
 import { Sizes, Colors } from "../../ui/Colors"
 
-const { lightgrey } = Colors
+const { lightgrey, orange, darkergrey } = Colors
 
-const BackgroundLowerBar = styled(BackgroundGeneral) `
+const Background = styled(BackgroundGeneral) `
     height: 100px;
     background-color: white;
 `
 
-const WrapperLowerBar = styled(WrapperGeneral) `
-
+const Wrapper = styled(WrapperGeneral) `
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 `
 
-const LeftSection = styled.div `
-
+const Logo = styled.h1 `
+    color: ${orange};
+    font-size: 2.3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+`
+const MenuWrapper = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    height: 100%;
 `
 
-const ContactTab = styled.div `
-
+const MenuItem = styled(Link) `
+    text-transform: uppercase;
+    text-decoration: none;
+    color: ${darkergrey};
 `
 
-const RightSection = styled.div `
-
-`
-
-const IconsTab = styled.div `
-
-`
-
-export {BackgroundLowerBar, WrapperLowerBar, LeftSection, ContactTab, RightSection, IconsTab}
+export {Background, Wrapper, Logo, MenuWrapper, MenuItem }

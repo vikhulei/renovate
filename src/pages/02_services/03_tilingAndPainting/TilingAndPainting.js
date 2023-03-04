@@ -4,7 +4,7 @@ const TilingAndPainting = () => {
     return (
         <Background>
             <Wrapper>
-                <h2>TilingAndPainting/h2>
+                <h2>TilingAndPainting</h2>
             </Wrapper>
         </Background>
     )

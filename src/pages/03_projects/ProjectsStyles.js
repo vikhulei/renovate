@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { BackgroundGeneral, WrapperGeneral } from "../../../components/ui/GeneralStyles"
+import { BackgroundGeneral, WrapperGeneral } from "../../components/ui/GeneralStyles"
 
 const Background = styled(BackgroundGeneral) `
 
