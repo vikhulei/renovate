@@ -4,7 +4,7 @@ const OurSkills = () => {
     return (
         <Background>
             <Wrapper>
-
+                <h2>OurSkills</h2>
             </Wrapper>
         </Background>
     )

@@ -4,7 +4,7 @@ const SideBar = () => {
     return (
         <Background>
             <Wrapper>
-
+                <h2>SideBar</h2>
             </Wrapper>
         </Background>
     )

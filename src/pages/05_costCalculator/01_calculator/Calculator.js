@@ -4,7 +4,7 @@ const Calculator = () => {
     return (
         <Background>
             <Wrapper>
-
+                <h2>Calculator</h2>
             </Wrapper>
         </Background>
     )

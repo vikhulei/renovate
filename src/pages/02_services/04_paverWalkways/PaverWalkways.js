@@ -4,7 +4,7 @@ const PaverWalkways = () => {
     return (
         <Background>
             <Wrapper>
-
+                <h2>PaverWalkways</h2>
             </Wrapper>
         </Background>
     )

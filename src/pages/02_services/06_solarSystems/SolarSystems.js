@@ -4,7 +4,7 @@ const SolarSystems = () => {
     return (
         <Background>
             <Wrapper>
-
+                <h2>SolarSystems</h2>
             </Wrapper>
         </Background>
     )

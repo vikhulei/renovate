@@ -4,7 +4,7 @@ const InteriorRenovation = () => {
     return (
         <Background>
             <Wrapper>
-                <h2></h2>
+                <h2>InteriorRenovation</h2>
             </Wrapper>
         </Background>
     )
