@@ -8,6 +8,7 @@ import Projects from "./pages/03_projects/Projects"
 import OurTeam from "./pages/04_ourTeam/OurTeam"
 import CostCalculator from "./pages/05_costCalculator/CostCalculator"
 import Contact from "./pages/06_contact/Contact"
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/costCalculator" element={<CostCalculator/>} />
         <Route path="/Contact" element={<Contact/>} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
