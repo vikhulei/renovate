@@ -27,7 +27,7 @@ const MenuWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 65%;
+    width: 62%;
     height: 100%;
 `
 

@@ -5,6 +5,9 @@ import CostOfRenovation from './pages/01_home/01_costOfRenovation/CostOfRenovati
 import Home from "./pages/01_home/Home"
 import Services from "./pages/02_services/Services"
 import Projects from "./pages/03_projects/Projects"
+import OurTeam from "./pages/04_ourTeam/OurTeam"
+import CostCalculator from "./pages/05_costCalculator/CostCalculator"
+import Contact from "./pages/06_contact/Contact"
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/projects" element={<Projects/>} />
+        <Route path="/ourTeam" element={<OurTeam />} />
+        <Route path="/costCalculator" element={<CostCalculator/>} />
+        <Route path="/Contact" element={<Contact/>} />
       </Routes>
     </Router>
   );
