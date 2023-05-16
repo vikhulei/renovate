@@ -1,1 +1,1 @@
-This is a showcase project - a website with an access to Quotes API
+This is a website for Renovation company with multiple pages
