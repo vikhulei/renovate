@@ -26,9 +26,12 @@ const SectionWrapper = styled.div `
 const IconWrapper = styled.div `
     width: 90px;
     height: 90px;
-    padding: 5px;
+    // padding: 5px;
     background-color: white;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 const TextWrapper = styled.div `

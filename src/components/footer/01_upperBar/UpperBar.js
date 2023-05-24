@@ -5,7 +5,7 @@ const UpperBar = () => {
         <Background>
             <Wrapper>
                 <SectionWrapper>
-                    <IconWrapper></IconWrapper>
+                    <IconWrapper>hello</IconWrapper>
                     <TextWrapper>
                         <Text>Phone:</Text>
                         <Text>+149 75 23 222 35</Text>
