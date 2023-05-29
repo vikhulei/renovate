@@ -33,6 +33,9 @@ const IconWrapper = styled.div `
     justify-content: center;
     align-items: center;
 `
+const Icon = styled.img`
+    width: 60%;
+`
 
 const TextWrapper = styled.div `
     display: flex;
@@ -45,4 +48,4 @@ const Text = styled.p `
     color: white;
 `
 
-export {Background, Wrapper, SectionWrapper, IconWrapper, TextWrapper, Text}
+export {Background, Wrapper, SectionWrapper, IconWrapper, Icon, TextWrapper, Text}
