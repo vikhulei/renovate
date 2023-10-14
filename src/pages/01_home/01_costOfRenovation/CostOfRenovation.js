@@ -8,7 +8,7 @@ const CostOfRenovation = () => {
             <Image src={excavator} />
             </ImageContainer>
             <Wrapper>
-                <h2>Cost of Renovation</h2>
+                <h2>Cost of Renovationnn</h2>
             </Wrapper>
         </Background>
     )
